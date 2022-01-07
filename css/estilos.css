@@ -1,0 +1,347 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+	
+	font-family: Helvetica, Arial, sans-serif;
+	/*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	
+	/* background-image:url("../img/particula.jpg"); */
+	/* Relleno superior igual a la altura de la cabecera*/
+	 /* Nuestra textura */
+	
+	/* Indicamos que la textura se repetira */
+	 /* Establecemos una posicion fija para la textura */
+	/* Eliminamos la propiedad de background-size */
+	background-color: #FDFEFE;
+	width: 100%;
+  	font-size: 16px;
+	
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-family: Lucida Bright;
+	font-weight: bold;
+	font-size:50px;
+}
+
+h2 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size:45px;
+}
+h4{
+	
+	text-align: center;
+	font-family: Lucida Bright;
+	font-weight: normal;
+
+
+	
+}
+
+/*Estas líneas de CSS las usaremos para dar estilo a los parrafos*/
+p {
+	margin: 0 0 1.5em 0;
+	text-align:  center;
+    
+}
+/*Estas líneas de CSS las usaremos para separar entre lineas de texto*/
+#texto{
+	line-height: 20pt;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*Estas líneas de CSS las usaremos para dar estilo a la cabecera:*/
+
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav-brand {
+  width: 250px;
+  
+}
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+#main-header {
+
+	color: white;
+	width: 50%;
+ 	background-color:#FDFEFE;
+  	margin-bottom: 50px;
+  	transition: all 0.5s ease 0s;
+}	
+	#main-header a {
+		color: #000000  ;
+	}
+
+
+
+	#main-header {
+	background: #FDFEFE ;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	display: block;
+    position: absolute;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    
+  
+}
+
+	
+/*
+ * Logo
+
+ */
+
+.toggle-menu ul {
+  display: table;
+  width: 25px;
+}
+.toggle-menu ul li {
+  width: 100%;
+  height: 3px;
+  background-color: #002e5b;
+  margin-bottom: 4px;
+}
+.toggle-menu ul li:last-child {
+  margin-bottom: 0px;
+}
+
+input[type="checkbox"],
+label {
+  display: none;
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 1.2em;
+
+
+}
+	#logo-header:hover {
+		color: none;
+	}
+	
+/*	#logo-header .site-name {
+		display: inline-block;
+		font-weight: 800;
+		font-size: 1.2em;
+		margin: 0 auto; 
+		width: 768px;
+		
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #4A148C ;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	 width: auto;
+ 	 float: right;
+ 	 text-align: center;
+}
+	nav ul {
+		display: table;
+  		float: right;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 50px;
+			float: left;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 20px;
+				float: left;
+				border-radius:50px;
+				text-decoration: none;
+				/*font-weight: bold;
+				font-size:20px;*/
+			}
+			
+				nav ul li a:hover {
+					/*background: #A569BD ;/*/
+					color: #FFFFFF ;
+  					transition: all 0.5s ease 0s;
+
+				}
+				nav ul li a:hover  {
+  					color: #D35400;
+  					transition: all 0.5s ease 0s;
+				}
+					nav ul li a i {
+  						padding-right: 10px;
+  						color: #000000 ;
+ 				 		transition: all 0.5s ease 0s;
+					}
+
+
+.toggle-menu ul {
+  display: table;
+  width: 25px;
+}
+.toggle-menu ul li {
+  width: 100%;
+  height: 3px;
+  background-color: #002e5b;
+  margin-bottom: 4px;
+}
+.toggle-menu ul li:last-child {
+  margin-bottom: 0px;
+}
+
+input[type="checkbox"],
+label {
+  display: none;
+}
+
+
+
+
+
+/*Con estos estilos aplicaremos diseño al contenido:*/
+
+#main-content {
+	background: #4A148C;
+	width: 100%;
+	max-width: 800px;
+	margin: 180px auto;
+	/*box-shadow: 0 0 10px rgba(0,0,0,.1);*/
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+
+
+/*Y por último, con esto estilizaremos el pie de página:*/
+
+#main-footer {
+	background:#4527A0   ;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	position: absolute;
+	width:100%;
+	left:-0.5%;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+ul.sociel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 0 auto;
+}
+ul.sociel li {
+  display: inline-block;
+  padding:0px 10px;
+  }
+
+ul.sociel li a {
+color: #212F3C;
+width: 50px;
+height: 50px;
+float: left;
+text-align: center;
+line-height: 50px;
+border-radius: 100%;
+font-size: 18px;
+}
+
+ul.sociel li a:hover {
+  color: #fff;
+width: 50px;
+height: 50px;
+background:;
+float: left;
+text-align: center;
+line-height: 50px;
+border-radius: 100%;
+font-size: 18px;
+
+}
+
+article {
+	background:#FFFFFF;
+	padding:50px;
+	margin:50px 0;
+	color:#1B2631 ;
+
+		/*box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+	box-sizing: content-box;
+width: 110%;*/
+	position: relative;
+
+}
+article h1 {
+	color:#17202A ;
+
+}
